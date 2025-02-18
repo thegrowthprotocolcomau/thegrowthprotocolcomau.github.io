@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9099C7H1F2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9099C7H1F2');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | The Growth Protocol</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/square.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#" color="green">The Growth Protocol</a>
+            </div>
+           <!--<div class="search-icon">
+               <i class="fas fa-search"></i>
+            </div>-->
+            <!--<nav>
+                <ul>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul>
+            </nav>-->
+           <div class="social-icons">
+               <a href="https://www.linkedin.com/company/the-growth-protocol-australia" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" style="width:20px;height:20px;"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+       <section class="hero-section">
+            <div class="hero-image" style="background-image: url('images/Picture3_1731311500.jpg');">
+               <div class="hero-text-container">
+                    <div class="hero-text">
+                         <h2>Grow Organic. Anybody. Anywhere</h2>
+                        <p>Leveraging the latest hydroponics technology, The Growth Protocol renovates urban farming and unlocks the value of underutilized real estate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <section class="growing-section">
+            <div class="growing-image"><img src="images/Picture1_1729686690.webp" alt=""></div>
+            <div class="growing-content">
+            <h2>We are growing!</h2>
+            <p>Like our organic vegetables, we need some time to grow.<br>Make sure to stay tuned.</p>
+             </div>
+         </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="contact-section">
+                <h3>Contact us to know more!</h3>
+                <form action="https://formsubmit.co/admin@thegrowthprotocol.com.au?captcha=true" method="POST" id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="3" required></textarea>
+
+                    <!-- Hidden field for reCAPTCHA response -->
+                    <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <!-- Add reCAPTCHA v3 Script -->
+                <script src="https://www.google.com/recaptcha/api.js?render=6LeHmNoqAAAAAEWrXlumco6ATP8AiaD09Muup8_z"></script>
+                <script>
+                    grecaptcha.ready(function () {
+                        grecaptcha.execute('6LeHmNoqAAAAAEWrXlumco6ATP8AiaD09Muup8_z', { action: 'submit' }).then(function (token) {
+                            document.getElementById('g-recaptcha-response').value = token;
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <a href="/">The Growth Protocol</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/company/the-growth-protocol-australia" target="_blank">
+                        <img src="images/linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+                <div class="copyright">
+                    <p>The Growth Protocol © 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
