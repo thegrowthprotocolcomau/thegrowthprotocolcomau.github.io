@@ -248,8 +248,7 @@ footer {
   max-width: 400px; /* Limit form width */
 }
 
-#contact-form input,
-#contact-form textarea {
+#contact-form input {
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
@@ -258,8 +257,13 @@ footer {
 }
 
 #contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
   resize: vertical; /* Allow vertical resizing */
-  min-height: 120px;
+  min-height: 30px;
 }
 
 #contact-form button {
